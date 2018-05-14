@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+    <property>
+        <comunidad_autonoma>COMUNIDAD AUTÓNOMA DE CATALUÑA</comunidad_autonoma>
+        <direccion>MARE DE DEU DEL PORT 128</direccion>
+        <localidad>BARCELONA</localidad>
+        <provincia>Barcelona</provincia>
+        <cops>8038</cops>
+        <property_for>REALESTATE</property_for>
+        <property_type>Apartment</property_type>
+        <property_sub_type>Penthouse</property_sub_type>
+        <rooms>4</rooms>
+        <bathrooms>2</bathrooms>
+        <sizem2>200</sizem2>
+        <rent_by>OWNER</rent_by>
+        <lease_duration>6_month</lease_duration>
+        <discription>this is testing comment for this property and dont know etc this is testing comment for this property and dont know etc this is testing comment for this property and dont know etc this is testing comment for this property and dont know etc this is testing comment for this property and dont know etc this is testing comment for this property and dont know etc this is testing comment for this property and dont know etc this is testing comment for this property and dont know etc this is testing comment for this property and dont know etc this is testing comment for this property and dont know etc this is testing comment for this property and dont know etc</discription>
+        <description_help_needed>NO</description_help_needed>
+        <images_help_needed>YES</images_help_needed>
+        <documentation_help_needed>YES</documentation_help_needed>
+        <usability>USED</usability>
+        <favourite_space>yaar this is testing comment</favourite_space>
+        <construction>2018</construction>
+        <features>
+            <elevetor>YES</elevetor>
+            <doorman>NO</doorman>
+            <furnished>YES</furnished>
+            <furnished_kitchen>NO</furnished_kitchen>
+            <furnished_all>NO</furnished_all>
+            <floor>NO</floor>
+            <floor_hardwood>NO</floor_hardwood>
+            <floor_ceramic>NO</floor_ceramic>
+            <floor_natural_light>NO</floor_natural_light>
+            <cellings>NO</cellings>
+            <cellings_high>NO</cellings_high>
+            <cellings_other>NO</cellings_other>
+            <heating>NO</heating>
+            <laundry>NO</laundry>
+            <central_ac>YES</central_ac>
+            <outdoor_space>NO</outdoor_space>
+            <gym>YES</gym>
+            <dishwasher>YES</dishwasher>
+            <pool>YES</pool>
+            <pets>NO</pets>
+            <dogs>NO</dogs>
+            <cats>NO</cats>
+            <most_relevant>NO</most_relevant>
+            <loquare_listing>YES</loquare_listing>
+            <others>NO</others>
+        </features>
+        <latitude>1.97641</latitude>
+        <longitude>41.4482</longitude>
+        <ref>201803081</ref>
+        <hoods>la Marina de Port</hoods>
+        <property_deal>SALE</property_deal>
+        <district>Sants-Montjuïc</district>
+        <state>Barcelona</state>
+        <price>625000</price>
+        <guarantee>0</guarantee>
+        <type2>1</type2>
+        <offered>77675</offered>
+        <images>
+            <image>http://www.constructorabolivarbog.com/slide_imgs/bogota~0.jpg</image>
+            <image>http://www.constructorabolivarbog.com/slide_imgs/cali.jpg</image>
+            <image>http://www.constructorabolivarbog.com/slide_imgs/barranquilla.jpg</image>
+            <image>http://www.constructorabolivarbog.com/slide_imgs/ibague.jpg</image>
+            <image>http://www.constructorabolivarbog.com/slide_imgs/santamarta.jpg</image>
+        </images>
+        <certificates>
+            <energycertificate>http://www.constructorabolivarbog.com/slide_imgs/santamarta.jpg</energycertificate>
+            <ownercertificate>http://www.constructorabolivarbog.com/slide_imgs/santamarta.jpg</ownercertificate>
+        </certificates>
+    </property>
+</properties>

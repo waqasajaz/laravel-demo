@@ -1,0 +1,13 @@
+.chart_filters
+{
+
+}
+.chart_filters input,
+.chart_filters select
+{
+    min-width: 200px;
+    border: 1px solid #CCC;
+    background: transparent;
+    padding: 10px;
+    border-radius: 3px;
+}

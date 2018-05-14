@@ -1,0 +1,12 @@
+version: 0.0
+os: linux
+files:
+   - source: /
+     destination: /home/ubuntu/codedeploy
+hooks:
+   BeforeInstall:
+    - location: deploy/before-deploy.sh
+      runas: root
+   AfterInstall:
+    - location: deploy/after-deploy.sh
+      runas: root

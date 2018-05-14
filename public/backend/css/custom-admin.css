@@ -1,0 +1,65 @@
+input.invalid{
+ border: 1px solid red;
+}
+.invalid{ 
+ display: inline;
+}
+em.invalid {
+ width: auto;
+ display: inline;
+ color: red;
+ font-weight: normal;
+ font-style: normal;
+}
+
+.add-link{
+  font-size: 18px;
+  color:blue;
+}
+
+.i_delete{
+    color:#d73925;
+}
+.s_active{color: #008d4c;}
+.s_inactive{color: #d73925;}
+.add-btn-primary{width: 50px; margin-bottom: 10px;}
+
+/* ******************************* 08_02_2017 **************************** */
+.skin-blue .main-header .logo
+{
+    background-color: #AE1D15;
+}
+.skin-blue .main-header .navbar {
+    background-color: #c22017;
+}
+.skin-blue .main-header .logo:hover {
+    background-color: #AE1D15;
+}
+.skin-blue .main-header .navbar .sidebar-toggle:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.skin-blue .main-header li.user-header {
+    background-color: #c22017;
+}
+.box.box-primary {
+    border-top-color: #c22017;
+}
+
+/* DataTable Css  */
+
+table.dataTable.no-footer{border-bottom: 1px solid #e5e5e5;}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button{padding: 0;}
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover{background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 1px solid transparent;}
+.dataTables_wrapper .dataTables_paginate .paginate_button:active{background: rgba(0, 0, 0, 0) none repeat scroll 0 0;box-shadow: 0 0 3px transparent inset;}
+
+table.dataTable thead .sorting_asc::after, table.dataTable thead .sorting::after, table.dataTable thead .sorting_desc::after {content: none;}
+
+div.RemoveExtraBtn.DTTT_container{display: none;}
+
+.box-body .box_rowcount{clear: both;padding: 10px;}
+
+/* ************* other css *********** */
+
+span.required-field {color: #ff0000;display: inline-block;padding-left: 3px;}

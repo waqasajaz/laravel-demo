@@ -1,0 +1,63 @@
+.checkbox--small label span {
+    width: 14px;
+    height: 14px;
+    top: 0;
+    margin: 4px;
+}
+.sub-options
+{
+    display: none;
+}
+.checkbox--small label
+{
+    font-size: 12px;
+}
+.features:checked + label + .sub-options,
+.property_type_filter:checked + label + .sub-options
+{
+    display: block;
+}
+.range-inputs
+{
+    position: relative;
+}
+.option-group {
+    display: none;
+    position: absolute;
+    width: 100%;
+    background-color: #FFF;
+    top: 30px;
+    background: #FFF;
+    z-index: 9;
+    border: 1px solid #CCC;
+    border-radius: 3px;
+    max-height: 200px;
+    overflow-y: scroll;
+}
+.option-group .min, .option-group .max
+{
+    display: none;
+}
+.data-option {
+    padding: 3px 10px;
+}
+.data-option:hover {
+    background-color: #CCC;
+    cursor: pointer;
+}
+.text-input
+{
+    width: 102px;
+    border: 1px solid #CCC;
+    margin-left: 2px;
+    padding: 5px;
+    border-radius: 3px;
+}
+.option-group .min.active, .option-group .max.active
+{
+    display: block;
+}
+.range-inputs .filter__between-item
+{
+    position: relative;
+}

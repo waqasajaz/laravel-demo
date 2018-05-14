@@ -1,0 +1,88 @@
+.mapboxgl-ctrl-logo,.mapboxgl-compact{
+    display: none !important;
+}
+
+p.overview_text
+{
+	font-size: 13px;
+    color: #5d6872;
+    line-height: 2;
+    font-family: OpenSans-Regular;
+    letter-spacing: 0;	
+}
+
+#area_overview_map
+{
+	position: absolute;
+	height: 400px;
+	width: 100%;
+}
+
+#map-hood, #map-state, #satelite-hood
+{
+	min-height: 500px;
+	width: 100%;
+}
+
+/*homepage.css start 9-feb-2018 */
+.container.abslte
+{
+    max-width:none;   
+}
+.sub-nav
+{
+    margin-top:2px;   
+}
+.sub-nav a
+{
+    color:rgba(255, 255, 255, 0.6);
+    font-size:18px;
+}
+.banner
+{
+    height:690px;
+    background:url(../images/frontend/banner_1.jpg) no-repeat center top;
+}
+.banner.home_pg
+{
+    background-size:cover;
+    height: 680px;
+	background-image:url(../images/frontend/banner_home-nw.jpg)
+}
+.banner.all-areas {
+    height: 690px !important;
+    background-image: url(../images/frontend/banner_2.jpg) !important;
+    
+}
+.banner.all-states {
+    height: 550px !important;
+    background-image: url(../images/frontend/banner_2.jpg) !important;
+    
+}
+.banner.all-neighbours {
+    height: 550px !important;
+    background-image: url(../images/frontend/banner_2.jpg) !important;
+    
+}
+.fix-nav-bar.nav-fix-adon
+{
+    top:99px !important;   
+}
+.district_block
+{
+	margin-bottom:25px;
+}
+.all-areas  h1,.all-states  h1,.all-neighbours  h1
+{
+    font-size:60px !important;   
+}
+.tabl-width table td:nth-child(2)
+{
+	background: url(../images/frontend/check-icon.png) no-repeat 20px center !important;
+}
+.tabl-width table td:nth-child(3)
+{
+	background: url(../images/frontend/close-btn.png) no-repeat 20px center !important;
+}
+/*homepage.css end */
+

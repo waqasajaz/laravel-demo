@@ -1,0 +1,261 @@
+.user_plus_icon{
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    background: none;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+.user_plus_icon i{
+  color:#E2E2E2;
+  transition: all 0.3s;
+
+}
+.user_plus_icon i:hover{
+      color:#5D6872;
+}
+
+.direct_chat_view{
+   margin-bottom: 15px;
+   display: block;
+   padding-right: 5px;
+}
+
+.chat_profile{
+    border-radius: 50%;
+    float: left;
+    width: 35px;
+    height: 35px;
+    margin-top: 0px;
+    background:#000;
+    color:#fff;
+    font-size: 16px;
+    line-height: 35px;
+    border:1px solid #000;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.direct_chat_message{
+   position: relative;
+   padding: 5px 10px;
+   margin: 5px 0 0 40px;
+   color: #444;
+   background:#f0f0f0;
+}
+
+.message_left .direct_chat_message{
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.message_right .direct_chat_message{
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+.message_right .chat_profile{
+    float:right;
+}
+
+.message_right .direct_chat_message{
+    margin-right: 40px;
+    margin-left: 0;
+    background:#00AB8A;
+    color: #fff;
+    text-align: right;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+#chat_window {
+    height: 250px;
+    overflow: auto;
+    padding: 20px;
+}
+
+.chat_window {
+    background: #FFF;
+    margin-bottom: 30px;
+    padding: 16px;
+    margin-top: -30px;
+    border: 1px solid #f6f6f6;
+}
+
+
+.ck-button {
+    margin:4px;
+    background-color:#000000;
+    float:left;
+    width:40px;
+    height:40px;
+    border-radius:100px;
+    text-align: center;
+    color:#fff;
+    font-weight: bold;
+    position: relative;
+}
+
+.ck-button label {
+   width: 100%;
+    display: block;
+    height: 100%;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.ck-button label span {
+    text-align:center;
+    display:block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+    line-height: 41px;
+}
+
+.ck-button label input {
+    position:absolute;
+    top:-20px;
+    display: none;
+}
+
+.ck-button input:checked + span {
+    background-color:#00AB8A;
+    color:#fff;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    line-height: 41px;
+}
+.check_icon_view{
+  float:right;
+  font-size: 20px;
+  color: #e2e2e2;
+  cursor: pointer;
+}
+.check_icon_view span{
+  display: inline-block;
+  padding:10px 5px;
+}
+
+.check_icon_view .fa-trash:hover,
+.check_icon_view .fa-times:hover{
+    color:#323C47;
+}
+
+.checkbox-custom-class{
+    display: inline-block;
+    margin-left: 10px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: normal;
+}
+
+.chat-datetime-right{
+    font-size: 10px;
+    color: #323c47;
+    padding-right: 86px;
+}
+
+.chat-datetime-left{
+    font-size: 10px;
+    color: #323c47;
+    padding-left: 54px;
+}
+
+.message_right_date{
+    padding-left: 80%;
+    font-size: 14px;
+}
+
+.message_left_date{
+    padding-left: 40px;
+    font-size: 14px;
+}
+
+.progress_bar{
+    text-align: center;
+    margin-top:50px;
+}
+.progress_bar h2{
+  font-size: 22px;
+  margin-bottom:20px;
+
+}
+
+.progress_bar .left_progressbar{
+   display: inline-block;
+   width:25%;
+   border:1px solid #FF9700;
+   margin-right:20px;
+   padding:15px;
+   border-radius: 10px;
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+.progress_bar .right_progressbar{
+   display: inline-block;
+   width:25%;
+   border:1px solid #FF9700;
+   margin-left:20px;
+   padding:15px;
+   border-radius: 10px;
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+.progress_bar .loan_program_total_circle{
+  margin:0 auto;
+}
+
+.left_chart{
+   display: inline-block;
+   width:46%;
+   border:1px solid #FF9700;
+   margin-right:20px;
+   padding:15px;
+   border-radius: 10px;
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.right_chart{
+   display: inline-block;
+   width:46%;
+   border:1px solid #FF9700;
+   margin-left:20px;
+   padding:15px;
+   border-radius: 10px;
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.pageloader
+{
+    position: fixed;
+    background: #FFF;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pageloader:before{
+    content: '';
+    display: block;
+    background-image: url('../assets/icons/Q-logo.svg');
+    height: 130px;
+    width: 100px;
+    -webkit-animation: pageloader 1.5s infinite; /* Safari 4.0 - 8.0 */
+    animation: pageloader 1.5s infinite;
+}
+@keyframes pageloader {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}

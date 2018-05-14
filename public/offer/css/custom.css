@@ -1,0 +1,350 @@
+.bootstrap-datetimepicker-widget .collapse {
+    height: auto;
+    display: block;
+}
+
+.bootstrap-datetimepicker-widget .dropdown-menu li > a {
+    display: none !important;
+}
+
+.bootstrap-datetimepicker-widget .collapse {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0 5px;
+}
+
+.bootstrap-datetimepicker-widget {
+    width: 550px;
+    padding: 20px;
+    box-shadow: 0 0 5px #e1dddd;
+    border: 0;
+    font-family: OpenSans-Regular;
+    border-radius: 0;
+
+}
+
+.bootstrap-datetimepicker-widget .timepicker {
+    margin-top: 20px;
+}
+
+.bootstrap-datetimepicker-widget li.picker-switch.accordion-toggle {
+    display: none;
+}
+
+.add-on {
+    text-align: left !important;
+}
+
+input.add-on.form-control {
+    background: #ffffff;
+}
+
+.drop-icon {
+    position: relative;
+    display: block;
+}
+
+td.day {
+    width: 30px !important;
+    height: 30px !important;
+    padding: 0;
+    line-height: 24px !important;
+    border-radius: 100%;
+}
+
+.datepicker .table-condensed td.day.active, .table-condensed td.day:hover {
+    border-radius: 100%;
+    background: #00AB8A !important;
+    color: #fff !important;
+}
+
+td.hour:hover, td.minute:hover {
+    background: #00AB8A !important;
+    color: #fff !important;
+}
+
+.btn-primary {
+    color: #fff;
+    background: #00AB8A !important;
+    color: #fff !important;
+    border: 0 !important;
+}
+
+.btn-primary:hover {
+    background: #05c7a2 !important;
+}
+
+.timepicker-picker:before {
+    position: relative;
+    display: block;
+    content: "Time";
+    margin: -11px 16px 20px;
+    text-align: left;
+}
+
+th.dow {
+    padding-top: 22px !important;
+}
+
+/*modal css start*/
+#letusModal .modal-title {
+    color: #00AB8A;
+}
+
+#letusModal .modal-footer .btn {
+    background: #00AB8A;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 12px;
+    line-height: 1.2;
+    text-transform: capitalize;
+    border: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#letusModal .modal-footer .cancel_btn {
+    background: #868f98;
+}
+
+#letusModal .modal-footer .btn.cancel_btn:hover, #letusModal .modal-footer .btn.cancel_btn:focus {
+    background: #98a3ae;
+}
+
+#letusModal .modal-footer .btn:hover,
+#letusModal .modal-footer .btn:hover,
+#letusModal .modal-footer .btn-default:focus,
+#letusModal .modal-footer .btn-default:hover {
+    background: #04c7a2;
+    color: #fff;
+    outline: none;
+}
+
+/*modal css end*/
+
+@media (max-width: 767px) {
+    .bootstrap-datetimepicker-widget {
+        width: 80%;
+        left: 0 !important;
+        right: 0 !important;
+        box-sizing: border-box;
+        margin: auto;
+        margin-top: auto;
+        margin-top: 10px;
+    }
+
+    .bootstrap-datetimepicker-widget.pull-right::before {
+        left: auto;
+        right: 40%;
+        border-bottom-color: rgb(234, 234, 233);
+    }
+
+    .bootstrap-datetimepicker-widget.pull-right::after {
+        left: auto;
+        right: 40%;
+        border-bottom-color: #fff;
+    }
+
+}
+
+@media (max-width: 580px) {
+    .bootstrap-datetimepicker-widget .collapse {
+        float: none;
+        width: 100%;
+        padding: 15px 5px;
+    }
+
+    .timepicker-picker::before {
+
+        margin: 0 10px 0;
+        text-align: left;
+    }
+
+}
+
+#file_input {
+    display: none;
+}
+
+.drop-zone {
+    cursor: pointer;
+    user-select: none;
+    color: #555;
+    font-size: 18px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    height: 150px;
+    background: #e6e7e9;
+    text-align: center;
+}
+
+.drop-zone.drop {
+    background: #fff;
+}
+
+.drop-zone.error {
+    background: #faa;
+    border-color: #f00;
+}
+
+.drop-zone.drop > .title {
+    display: none;
+}
+
+.preview-container canvas {
+    width: 150px;
+}
+
+#upload_images {
+    outline: none;
+}
+
+#upload_images:hover {
+    box-shadow: 0px 2px 1px white inset, 0px -2px 20px white, 0px 2px 5px rgba(0, 0, 0, 0.1), 0px 8px 10px rgba(0, 0, 0, 0.1);
+}
+
+#upload_images:active {
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5) inset, 0px -2px 20px white, 0px 1px 5px rgba(0, 0, 0, 0.1), 0px 2px 10px rgba(0, 0, 0, 0.1);
+    background: -webkit-linear-gradient(top, #d1d1d1 0%, #ECECEC 100%);
+}
+
+.result-images {
+    margin-top: 40px;
+}
+
+.result-images a {
+    color: #666666;
+}
+
+.result-images a b {
+    color: black;
+}
+
+.file-uploader-progress-bar {
+    display: none;
+}
+
+.converting select:hover {
+    background: linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+    background-color: #f6f6f6;
+}
+
+.preview-container canvas {
+    width: auto;
+    height: 150px;
+}
+
+.file-name {
+    display: none;
+}
+
+.footer {
+    height: auto;
+}
+
+.header__login .green-btn {
+    background: #00AB8A;
+}
+
+.login-list-border a:after {
+    display: none !important;
+}
+
+.footer__left {
+    width: 390px;
+    padding: 70px 15px;
+}
+
+.footer__right {
+    padding: 70px 15px 70px 80px;
+    width: calc(100% - 390px)
+}
+
+.footer-nav__item a {
+    color: #838383;
+    font-size: 13px;
+    display: inline-block;
+    margin-bottom: 6px;
+}
+
+.footer-nav__item a:hover {
+    color: #00AB8A;
+    text-decoration: none;
+}
+
+.mt-top-40 {
+    padding-top: 40px;
+}
+
+.range_percentage, .neg_price_percentage {
+    position: absolute;
+    top: 43px;
+    right: 18%;
+    transform: translate(-21%, 0);
+}
+
+.rang-sld {
+    position: relative;
+}
+
+.top_value {
+    text-align: center;
+    margin-bottom: 10px;
+    display: block;
+}
+
+/* css for create offer image uplaod in step 6 */
+.passport_cst {
+    width: 150px;
+    height: 150px;
+}
+
+.passport_cst img {
+    height: 100%;
+    width: 100%;
+}
+
+.passport_cst .wrapper {
+    height: 150px;
+    width: 150px;
+    min-height: auto;
+    margin: 5px;
+}
+
+.passport_cst canvas {
+    height: 150px;
+    width: 150px;
+}
+
+/* css for create offer image uplaod in step 6 */
+
+.slider_input_block
+{
+    background: #FFF;
+    border: 1px solid #DDD;
+    width: 160px;
+    margin: 0 auto 30px;
+    position: relative;
+}
+.slider_input_block:before{
+    content: '\20AC';
+    display: block;
+    font-size: 16px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 5px 15px;
+    height: 100%;
+    border-right: 1px solid #ddd;
+}
+.slider_input_block input
+{
+    border: 0;
+    height: 40px;
+    padding: 0 5px 0 45px;
+    text-align: center;
+    width: 100%;
+}
